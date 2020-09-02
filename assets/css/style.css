@@ -1,0 +1,29 @@
+.fondo{
+    background: rgb(235, 75, 235);
+    background: purple;
+}
+
+.letra>ul>li>a{
+    color: #001F3F !important;
+} 
+
+.bg-primary{
+    background: rgba(127,219,255,1) !important;
+    background: -webkit-linear-gradient(top, rgba(127,219,255,1) 0%, rgba(82,140,163,1) 100%) !important;
+    background: linear-gradient(to bottom, rgba(127,219,255,1) 0%, rgba(82,140,163,1) 100%) !important;
+}
+
+.tama{
+    height: 70px !important;
+}
+
+.boton{
+    background: #001F3F;
+    color: white;
+    border: 1px solid black;
+}
+
+.btn-outline-success:hover{
+    border: 1px solid white;
+    background: #043b72 ;
+}
