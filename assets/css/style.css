@@ -13,10 +13,6 @@
     background: linear-gradient(to bottom, rgba(127,219,255,1) 0%, rgba(82,140,163,1) 100%) !important;
 }
 
-.tama{
-    height: 70px !important;
-}
-
 .boton{
     background: #001F3F;
     color: white;
@@ -26,4 +22,12 @@
 .btn-outline-success:hover{
     border: 1px solid white;
     background: #043b72 ;
+}
+
+.card-img-own{
+    height: 60px;
+}
+
+.card-img-top{
+    height: 120px;;
 }

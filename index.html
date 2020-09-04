@@ -13,7 +13,7 @@
 
 <body>
   <header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-primary tama ">
+    <nav class="navbar navbar-expand-lg navbar-light bg-primary">
       <a class="navbar-brand" href="#"> <img src="./assets/img/logo.png" class="rounded-circle" alt="" width="50px">
       </a>
       <button class="navbar-toggler  " type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -38,14 +38,10 @@
               <a class="dropdown-item" href="#">Rammstein</a>
               <a class="dropdown-item" href="#">Slipknot</a>
               <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Green Day</a>
               <a class="dropdown-item" href="#">Blink 182</a>
+              <a class="dropdown-item" href="#">Green Day</a>
             </div>
           </li>
-          <!-- <li class="nav-item">
-          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-        </li> -->
-
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
               aria-haspopup="true" aria-expanded="false">
@@ -55,8 +51,8 @@
               <a class="dropdown-item" href="#">Industrial Metal</a>
               <a class="dropdown-item" href="#">Nu Metal</a>
               <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Punk Rock</a>
               <a class="dropdown-item" href="#">Neo Punk</a>
+              <a class="dropdown-item" href="#">Punk Rock</a>
             </div>
           </li>
         </ul>
@@ -112,7 +108,7 @@
           <iframe width="90%" height="315" src="https://www.youtube.com/embed/Soa3gO7tL-c" frameborder="0"
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
-        <div class="col-12 col-lg-6 order-md-1 order-lg-2">
+        <div class="col-12 col-lg-6 order-md-1 order-lg-2 p-3">
           <span class="font-weight-bold">Green Day</span> es una banda estadounidense de pop punk y punk rock integrada
           inicialmente por tres miembros: Billie Joe Armstrong (guitarra y voz), Mike Dirnt (bajo y coros) y Tré Cool
           (batería y coros).
@@ -129,14 +125,14 @@
       </div>
 
 
-      <div class="row">
-        <div class="col-12 col-lg-6 d-flex flex-column align-items-center justify-content-center bg-primary p-3">
+      <div class="row d-flex justify-content-around mt-5">
+        <div class="col-12 col-lg-5 d-flex flex-column align-items-center justify-content-center bg-primary p-3">
           <img src="./assets/img/auricular.svg" alt="auriculares">
-          <h2>Regístrate y obtén 2 meses Gratis!!</h2>
+          <h2 class="text-center">Regístrate y obtén 2 meses Gratis!!</h2>
           <h6>*Aplican condiciones y restricciones*</h6>
         </div>
-        <div class="col-12 col-lg-6">
-          <form>
+        <div class="col-12 col-lg-6 border border-primary">
+          <form class="p-5">
             <div class="form-row">
               <div class="form-group col">
                 <label for="">Nombre</label>
@@ -193,11 +189,47 @@
         </div>
       </div>
 
+      
 
     </div>
   </main>
 
+  <footer>
+    <div class="card-deck bg-primary mt-5 p-4 text-center">
+      <div class="card pt-3">
+        <div class="card-img-top d-flex justify-content-center align-items-center">
+          <img class="card-img-own m-2" src="./assets/img/facebook.svg" alt="Card image cap">
+          <img class="card-img-own m-2" src="./assets/img/instagram.svg" alt="Card image cap">
+          <img class="card-img-own m-2" src="./assets/img/twitter.svg" alt="Card image cap">
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Redes Sociales</h5>
+          <ul class="list-unstyled">
+            <li><a href="#">Facebook-BictiaMusic</a></li>
+            <li><a href="#">Instagram-@BictiaMusic</a></li>
+            <li><a href="#">Twitter-@BictiaMusic</a></li>
+          </ul>
+        </div>
+      </div>
 
+      <div class="card pt-3">
+        <img class="card-img-top" src="./assets/img/musica.svg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">BictiaMusic</h5>
+          <p class="card-text">Bienvenido a la mejor plataforma Streaming de música en Colombia!!.</p>
+        </div>
+      </div>
+
+      <div class="card pt-3">
+        <img class="card-img-top" src="./assets/img/equipo.svg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Creadores</h5>
+          <p class="card-text">Esta aplicación ha sido creada por los mejores programadores de toda BICTIA.</p>
+        </div>
+      </div>
+
+    </div>
+  </footer>
 
 
 
