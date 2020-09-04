@@ -31,3 +31,8 @@
 .card-img-top{
     height: 120px;;
 }
+
+.h-slider{
+    max-height: 550px;
+    min-height: 200px;
+}
