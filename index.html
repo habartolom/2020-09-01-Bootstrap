@@ -2,83 +2,148 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
     integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link rel="stylesheet" href="./assets/css/style.css">
-   
+  <link rel="stylesheet" href="./assets/css/style.css">
+
 </head>
 
 <body>
-<header>
-  <nav class="navbar navbar-expand-lg navbar-light bg-primary tama ">
-    <a class="navbar-brand" href="#"> <img src="./assets/img/logo.png" class="rounded-circle" alt="" width="50px" >    </a>
-    <button class="navbar-toggler  " type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-  
-    <div class="collapse navbar-collapse letra" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Playlists</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Top Artistas
-          </a>
-          <div class="dropdown-menu bg-primary" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#">Ariana Grande</a>
-            <a class="dropdown-item" href="#">J-balvin</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Lady Gaga</a>
-            <a class="dropdown-item" href="#">Jorge Veloza</a>
-          </div>
-        </li>
-        <!-- <li class="nav-item">
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-primary tama ">
+      <a class="navbar-brand" href="#"> <img src="./assets/img/logo.png" class="rounded-circle" alt="" width="50px">
+      </a>
+      <button class="navbar-toggler  " type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse letra" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Playlists</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              Top Artistas
+            </a>
+            <div class="dropdown-menu bg-primary" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Rammstein</a>
+              <a class="dropdown-item" href="#">Slipknot</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Green Day</a>
+              <a class="dropdown-item" href="#">Blink 182</a>
+            </div>
+          </li>
+          <!-- <li class="nav-item">
           <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
         </li> -->
-        
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Generos 
-          </a>
-          <div class="dropdown-menu bg-primary" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#">Vallenato</a>
-            <a class="dropdown-item" href="#">Salsa</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Chillout</a>
-            <a class="dropdown-item" href="#">Rock</a>
-          </div>
-        </li>  
-      </ul>
-      <form class="form-inline my-2 my-lg-0">
-        <input class="form-control mr-sm-2" type="search" placeholder="Busca por Artista o Genero" aria-label="Search">
-        <button class="btn btn-outline-success  my-2 my-sm-0 boton " type="submit">Buscar</button>
-      </form>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              Generos
+            </a>
+            <div class="dropdown-menu bg-primary" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Industrial Metal</a>
+              <a class="dropdown-item" href="#">Nu Metal</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Punk Rock</a>
+              <a class="dropdown-item" href="#">Neo Punk</a>
+            </div>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Busca por Artista o Genero"
+            aria-label="Search">
+          <button class="btn btn-outline-success  my-2 my-sm-0 boton " type="submit">Buscar</button>
+        </form>
+      </div>
+    </nav>
+
+  </header>
+
+  <main>
+    <div class="container">
+
+      <div class="row mt-5 border border-primary p-3">
+        <div class="col-12 col-md-6 col-lg-3 order-2 order-md-1">
+          <span class="font-weight-bold">Rammstein</span> es una banda alemana de metal industrial formada en 1994 por
+          los músicos Till Lindemann, Richard Z. Kruspe, Oliver Riedel, Paul Landers, Christian Lorenz y Christoph
+          Schneider.
+        </div>
+        <div class="col-12 col-md-6 col-lg-3 order-1 order-md-2">
+          <img class="img-fluid" src="./assets/img/rammstein.jpg" alt="rammstein">
+        </div>
+        <div class="col-12 col-md-6 col-lg-3 order-4 order-md-3">
+          <span class="font-weight-bold">Slipknot</span> es una banda estadounidense de metal alternativo formada en
+          1995 en Des Moines, Iowa, Estados Unidos. Sus integrantes en la actualidad son Corey Taylor, Craig Jones,
+          James Root, Mick Thomson, Shawn Crahan y Sid Wilson.
+        </div>
+        <div class="col-12 col-md-6 col-lg-3 order-3 order-md-4">
+          <img class="img-fluid" src="./assets/img/slipknot.jpg" alt="slipknot">
+        </div>
+      </div>
+
+      <div class="row mt-5 border border-primary p-3">
+        <div class="col-12 col-md-6 col-lg-4 order-md-2">
+          <img class="img-fluid" src="./assets/img/blink182.png" alt="">
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 order-md-1 ">
+          <span class="font-weight-bold">Blink-182</span> es una banda californiana de pop punk, formada el 2 de agosto
+          de 1992 por Tom DeLonge (quien más tarde, en 2015, sería sustituido por Matt Skiba), Mark Hoppus, y Scott
+          Raynor (quien en 1998 sería sustituido por Travis Barker) en Poway, California.
+        </div>
+        <div class="col-12 col-md-7 col-lg-4 order-md-3 offset-md-2 offset-lg-0">
+          Son considerados como pioneros del pop punk y como una de las bandas que contribuyó a su éxito masivo
+          internacional a finales de los 1990 y principios de los 2000.
+        </div>
+      </div>
+
+      <div class="row mt-5 border border-primary p-3">
+        <div class="col-12 col-lg-6 order-md-2 order-lg-1">
+          <iframe width="90%" height="315" src="https://www.youtube.com/embed/Soa3gO7tL-c" frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="col-12 col-lg-6 order-md-1 order-lg-2">
+          <span class="font-weight-bold">Green Day</span> es una banda estadounidense de pop punk y punk rock integrada
+          inicialmente por tres miembros: Billie Joe Armstrong (guitarra y voz), Mike Dirnt (bajo y coros) y Tré Cool
+          (batería y coros).
+          <br>
+          Green Day junto a otras bandas como The Offspring y Rancid, fueron los que produjeron el renacimiento y
+          popularización del punk rock en los Estados Unidos, como de la cultura misma, las masivas ventas produjeron la
+          apertura de una ola de grupos pop punk y punk rock.
+          <br>
+          El conjunto estadounidense ha vendido alrededor de 100 millones de copias en todo el mundo y más de 30
+          millones solo en su país. En 2010 se estrenó una adaptación teatral del álbum American Idiot en Broadway, el
+          musical fue nominado para Tony Awards, incluyendo Mejor Musical y Mejor Diseño Escénico, y ha recibido
+          comentarios positivos en general.
+        </div>
+      </div>
+
     </div>
-  </nav>
-
-</header>
+  </main>
 
 
 
-    
 
 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
-        crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
